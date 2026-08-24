@@ -1,0 +1,11 @@
+Difference 1: Document Structure & Tag PlacementWhat is different? Manual put <img> and <h1> tags outside <body>; AI kept everything inside <body> using <header>, <main>, and <footer>.  Why different? Manual was a mistake from rusty HTML skills; AI auto-fixed it to follow standard web rules.  Preferred solution: AI-assisted solution.  Why preferred? Putting elements inside <body> stops pages from breaking in different web browsers. 
+
+Difference 2: Navigation LinksWhat is different? Manual used plain <div> tags with line breaks; AI used <nav> with bullet lists (<ul> and <li>).  Why different? Manual was built fast just to show links; AI built it proper for web accessibility.  Preferred solution: AI-assisted solution.  Why preferred? Proper lists make it easy for screen readers to read out the menu.
+
+Difference 3: Form Inputs & LabelsWhat is different? Manual used unlinked text labels; AI connected labels to input boxes using for and id tags, plus added required.  Why different? Manual was a rough quick draft; AI set up full form fields ready for submission.  Preferred solution: AI-assisted solution.  Why preferred? Users can click the text to select the input box, and required stops empty form submits.
+
+Difference 4: Inline StylingWhat is different? Manual used inline CSS (style="text-align: center;"); AI removed all style code.  Why different? Manual used CSS for quick alignment; AI followed the rule to stick to pure HTML.  Preferred solution: AI-assisted solution.  Why preferred? Follows the exact task rule: "HTML only. Do not use CSS".
+
+Difference 5: External Links & ImagesWhat is different? Manual used basic links and images; AI added security tags (rel="noopener noreferrer") and image captions (<figure>).  Why different? Manual skipped extra tags; AI added standard link safety and caption formatting.  Preferred solution: AI-assisted solution.  Why preferred? Keeps external links safe from web security risks when opening in a new tab.
+
+6. Explanation of AI Code Tags<nav aria-label="Main Navigation">: Tells the browser and screen readers where the main menu is located.  <label for="user-email"> / <input id="user-email">: Links the text label to the text box so clicking the text opens the box.  rel="noopener noreferrer": A safety setting on external links that stops the new tab from hacking or messing with your main page.
